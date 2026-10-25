@@ -1,0 +1,291 @@
+{
+  "lastUpdated": "October 2026",
+  "beaches": [
+    {
+      "id": "gas-bay",
+      "name": "Gas Bay",
+      "lat": -34.0043560084929695 ,
+      "lng": 114.9958405707865694,
+      "hazards": [
+        {
+          "title": "Unpatrolled",
+          "icon": "patrol-flags.jpg",
+          "points": [
+            "Learn general beach safety [here](/safety)",
+            "Bring someone else with you",
+            "Notice or bring floatation devices beforehand"
+          ]
+        },
+        {
+          "title": "Significant drop off on access stairs",
+          "icon": "eroded-stairs.png",
+          "points": [
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you anything looks unstable",
+            "Be careful on stairs and look out for drop offs",
+            "Look out for signs"
+          ]
+        }
+      ],
+      "potentialRisks": [
+      ],
+      "informational": [
+        {
+          "title": "Crowds during certain surfing conditions",
+          "points": [
+            "Avoid going during peak surfing conditions at Gas Bay when possible if you're not planning to surf"
+          ]
+        },
+        {
+          "title": "National Park and shorebird populations",
+          "points": [
+            "Be aware that there is a National Park south of Gas Bay Headland, and that shorebirds populations need to be looked after",
+            "Do not feed the birds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grunters-beach",
+      "name": "Grunters Beach",
+      "lat": -34.0019541449511919,
+      "lng": 114.9958644692520693,
+      "hazards": [
+        {
+          "title": "Unpatrolled",
+          "icon": "patrol-flags.jpg",
+          "points": [
+            "Learn general beach safety [here](/safety)",
+            "Bring someone else with you",
+            "Notice or bring floatation devices beforehand"
+          ]
+        }
+      ],
+      "potentialRisks": [
+        {
+          "title": "Erosion history on access stairs and dunes",
+          "icon": "eroded-stairs.png",
+          "points": [
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you anything looks unstable",
+            "Avoid vegetation or informal paths. Report informal paths to the [council](mailto:environment@amrshire.wa.gov.au)",
+            "Be careful on stairs and look out for drop offs",
+            "Look out for signs"
+          ]
+        },
+        {
+          "title": "Erosion vulnerable car park",
+          "icon": "eroded-carpark.png",
+          "points": [
+            "Stay on formal areas of the car park (don't go on vegetation)"
+          ]
+        }
+      ],
+      "informational": []
+    },
+    {
+      "id": "gnarabup-beach",
+      "name": "Gnarabup Beach",
+      "lat": -33.9901249451972234,
+      "lng": 114.9909361333517523,
+      "hazards": [
+        {
+          "title": "Unpatrolled",
+          "icon": "patrol-flags.jpg",
+          "points": [
+            "Learn general beach safety [here](/safety)",
+            "Bring someone else with you",
+            "Notice or bring floatation devices beforehand"
+          ]
+        },
+        {
+          "title": "Significant drop off on access stairs",
+          "icon": "eroded-stairs.png",
+          "points": [
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you anything looks unstable",
+            "Be careful on stairs and look out for drop offs",
+            "Look out for signs"
+          ]
+        }
+      ],
+      "potentialRisks": [
+      ],
+      "informational": [
+        {
+          "title": "Erosion and degeneration of vegetation",
+          "points": [
+            "Do not go on any informal paths or walk on vegetation, this contributes to erosion",
+            "Stay on formal paths"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prevelly-beach",
+      "name": "Prevelly Beach",
+      "lat": -33.9818853036483048,
+      "lng": 114.9896460410047183,
+      "hazards": [
+        {
+          "title": "Unpatrolled",
+          "icon": "patrol-flags.jpg",
+          "points": [
+            "Learn general beach safety [here](/safety)",
+            "Bring someone else with you",
+            "Notice or bring floatation devices beforehand"
+          ]
+        }
+      ],
+      "potentialRisks": [
+        {
+          "title": "Erosion history on limestone coastal walkway",
+          "icon": "eroded-path.png",
+          "points": [
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you anything looks unstable",
+            "Stay on formal paths",
+            "Look out for signs"
+          ]
+        }
+      ],
+      "informational": []
+    },
+    {
+      "id": "riflebutts-beach",
+      "name": "Riflebutts Beach",
+      "lat": -33.9778720730556643, 
+      "lng": 114.9864499670007518,
+      "hazards": [
+        {
+          "title": "Unpatrolled",
+          "icon": "patrol-flags.jpg",
+          "points": [
+            "Learn general beach safety [here](/safety)",
+            "Bring someone else with you",
+            "Notice or bring floatation devices beforehand"
+          ]
+        }
+      ],
+      "potentialRisks": [
+        {
+          "title": "Rockfall and erosion risk",
+          "icon": "rockfall.png",
+          "points": [
+            "Evidence of past rockfalls and tension cracks",
+            "Stay away from cliff bases and overhangs",
+            "Stay on formal paths restricted by rope, boardwalk, etc.",
+            "Avoid vegetation or informal paths. Report informal paths to the [council](mailto:environment@amrshire.wa.gov.au)"
+          ]
+        },
+        {
+          "title": "Erosion history on access stairs",
+          "icon": "eroded-stairs.png",
+          "points": [
+            "Potential collapse (non-emergency)",
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you anything looks unstable",
+            "Be careful on stairs and look out for drop offs",
+            "Look out for signs"
+          ]
+        }
+      ],
+      "informational": [
+        {
+          "title": "Changing beach shape",
+          "points": [
+            "Beach shape has been known to change over seasons and the winter",
+            "Follow updates from council",
+            "Avoid the beach after a storm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rivermouth-beach",
+      "name": "Rivermouth Beach",
+      "lat": -33.9711740785805389,
+      "lng": 114.9862998017112687,
+      "hazards": [
+        {
+          "title": "Only patrolled in Summer",
+          "icon": "patrol-flags.jpg",
+          "points": ["Learn general beach safety [here](/safety)"]
+        }
+      ],
+      "potentialRisks": [
+        {
+          "title": "Rockfall and erosion risk",
+          "icon": "rockfall.png",
+          "points": [
+            "Look out for signs",
+            "Stay away from cliff bases and overhangs",
+            "Erosion on access stairs also potentially present",
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you notice anything"
+          ]
+        },
+        {
+          "title": "Erosion history on access stairs",
+          "icon": "eroded-stairs.png",
+          "points": [
+            "Potential collapse (non-emergency)",
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you anything looks unstable",
+            "Be careful on stairs and look out for drop offs",
+            "Look out for signs"
+          ]
+        },
+        {
+          "title": "Historical water quality concerns",
+          "icon": "water-quality.png",
+          "points": [
+            "Do not swim after a storm",
+            "Do not swim in water that is noticeably discoloured, stagnant, murky or has a foul odour",
+            "Look out for water quality signs"
+          ]
+        }
+      ],
+      "informational": [
+        {
+            "title": "No cell coverage concerns",
+            "icon": "cell-coverage.png",
+            "points": [
+              "Tell people where you're going before hand",
+              "Have a backup plan to get help if needed"
+            ]
+        }
+        ]
+    },
+    {
+      "id": "surfers-point",
+      "name": "Surfers Point",
+      "lat": -33.9769289178545009, 
+      "lng": 114.9850884614014319,
+      "hazards": [
+        {
+          "title": "Unpatrolled",
+          "icon": "patrol-flags.jpg",
+          "points": [
+            "Learn general beach safety [here](/safety)",
+            "Bring someone else with you",
+            "Notice or bring floatation devices beforehand"
+          ]
+        },
+        {
+          "title": "High surf waves",
+          "icon": "large-waves.png",
+          "points": [
+            "Surf is high and for expert surfers only",
+            "Do not surf unless you are an experienced surfer and competent swimmer"
+          ]
+        }
+      ],
+      "potentialRisks": [
+         {
+          "title": "Rockfall and erosion risk",
+          "icon": "rockfall.png",
+          "points": [
+            "Look out for signs",
+            "Stay away from cliff bases and overhangs",
+            "[Contact the council](mailto:environment@amrshire.wa.gov.au) if you notice anything"
+          ]
+        }
+      ],
+      "informational": []
+    }
+  ]
+}

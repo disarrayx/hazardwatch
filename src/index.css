@@ -1,0 +1,143 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/*
+ * Design tokens. shadcn components read these variables, so mapping our
+ * brand colours onto them restyles every shadcn component automatically.
+ */
+:root {
+  --background: #faf8f5; /* off-white */
+  --foreground: #1e1e1e; /* main text */
+
+  --card: #faf8f5;
+  --card-foreground: #1e1e1e;
+  --popover: #faf8f5;
+  --popover-foreground: #1e1e1e;
+
+  --primary: #d5703b; /* orange accent */
+  --primary-foreground: #faf8f5;
+  --secondary: #3c7fa7; /* blue accent */
+  --secondary-foreground: #faf8f5;
+
+  --muted: #efebe5;
+  --muted-foreground: #5c5c5c;
+  --accent: #efebe5; /* hover/focus background in menus */
+  --accent-foreground: #1e1e1e;
+
+  --destructive: #c0392b;
+  --border: #e2ddd5;
+  --input: #e2ddd5;
+  --ring: #d5703b;
+
+  --radius: 0.5rem;
+}
+
+/* Expose the tokens (and fonts) as Tailwind utilities, e.g. bg-background, text-primary, font-logo */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: "Albert Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-logo: "Anybody", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Leaflet overrides                                                   */
+/* Leaflet ships its own fonts/colours; these make it match the site.  */
+/* ------------------------------------------------------------------ */
+
+/* Use the site font (Albert Sans) instead of Leaflet's Helvetica */
+.leaflet-container {
+  font-family: inherit;
+}
+
+/* Beach card popup: off-white background, site text colour, 16px padding */
+.hazard-popup .leaflet-popup-content-wrapper,
+.hazard-popup .leaflet-popup-tip {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.hazard-popup .leaflet-popup-content {
+  margin: 16px;
+  line-height: 1.5;
+}
+
+/* Leaflet adds margin to <p> and recolours links; undo both inside the card */
+.hazard-popup .leaflet-popup-content p {
+  margin: 0;
+}
+
+.hazard-popup .leaflet-popup-content a {
+  color: var(--primary);
+}
+
+.hazard-popup .leaflet-popup-content a:hover {
+  opacity: 0.8;
+}
+
+/* ------------------------------------------------------------------ */
+/* Marker clusters: orange circle with a count, as in the design       */
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* Marker clusters: orange circle with a count, as in the design       */
+/* ------------------------------------------------------------------ */
+
+/* Outer halo: a translucent ring of the brand orange (icon box is 40x40) */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgb(213 112 59 / 0.35);
+  border-radius: 50%;
+}
+
+/* Inner solid circle (30x30, centred in the halo) holding the number */
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  font-family: inherit;
+  font-weight: 600;
+  /* Centre the count both ways */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
