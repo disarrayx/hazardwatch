@@ -75,7 +75,7 @@ export default function Safety() {
 
       {/* Coastal Erosion */}
       <Container className="space-y-8 pt-8 text-lg">
-        <h2 className={H2_CLASS}>Rip Currents</h2>
+        <h2 className={H2_CLASS}>Coastal Erosion</h2>
 
         <section className="space-y-4">
           <p>

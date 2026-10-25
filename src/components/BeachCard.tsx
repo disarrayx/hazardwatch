@@ -19,7 +19,7 @@ function CardEntry({ item }: { item: CardItem }) {
         {icon && (
           <img
             // BASE_URL keeps the path correct when hosted under /repo-name/
-            src={`${import.meta.env.BASE_URL}src/assets/icons/${icon}`}
+            src={`${import.meta.env.BASE_URL}icons/${icon}`}
             alt="" // decorative: the title already says it
             className="size-6 shrink-0"
           />
