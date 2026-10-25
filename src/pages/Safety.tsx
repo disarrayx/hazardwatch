@@ -67,17 +67,47 @@ export default function Safety() {
               Avoid visiting beaches soon after storms due to pollution from
               sewage and stormwater runoff.
             </li>
-            <li>Don’t use informal paths, use proper walking paths.</li>
+            <li>Don't use informal paths, use proper walking paths.</li>
           </BulletList>
         </section>
 
       </Container>
 
-
+      {/* Coastal Erosion */}
       <Container className="space-y-8 pt-8 text-lg">
-        {/* Heading only; the full-width diagram follows outside this container */}
         <h2 className={H2_CLASS}>Rip Currents</h2>
-        {/* Full-width diagram. h-auto keeps the labels in the image uncropped. */}
+
+        <section className="space-y-4">
+          <p>
+            Erosion can be from physical or chemical processes and can affect cliffs, beaches, dunes and man-made structures.
+          </p>
+
+          <BulletList className="space-y-4">
+            <li className="marker:text-secondary">
+              <p className="font-semibold text-secondary">Staying safe:</p>
+              <BulletList className="mt-2">
+                <li>Know your area. For example, Western Australia is known for having limestone cliffs which are prone to erosion.</li>
+                <li>Pay attention to signage in the area.</li>
+                <li>Don't walk underneath overhangs or on top of cliffs, especially not after storm conditions.</li>
+              </BulletList>
+            </li>
+
+            <li className="marker:text-secondary">
+              <p className="font-semibold text-secondary">Minimising human-caused erosion:</p>
+              <BulletList className="mt-2">
+                <li>
+                  Stay off informal paths and vegetation.
+                </li>
+              </BulletList>
+            </li>
+          </BulletList>
+        </section>
+
+      </Container>
+
+      {/* Rip Safety */}
+      <Container className="space-y-8 pt-8 text-lg">
+        <h2 className={H2_CLASS}>Rip Currents</h2>
         <img
             src={ripDiagram}
             alt="Aerial diagram of a beach showing incoming waves, sand bars, and rip currents flowing out to sea between them"
